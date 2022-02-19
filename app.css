@@ -1,0 +1,44 @@
+.complete {
+    text-decoration: line-through;
+}
+
+body {
+    text-align: center;
+}
+
+.list {
+    border: 1px solid black;
+    width: 50%;
+    height: 500px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    text-align: left;
+
+}
+
+.btn {
+    margin-left: 5px;
+}
+
+.title {
+    margin-top: 5%;
+}
+
+.intro {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 25%;
+
+}
+
+#toDo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: larger;
+    margin-top: 5%;
+}
+
+.add {
+    display: inline;
+}

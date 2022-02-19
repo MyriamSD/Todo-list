@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1 class="name">Todo List</h1>
+
+    <section class="intro">
+        <h2>Instructions</h2>
+        <ul>
+            <li>Enter a task and press submit to add it to your todo list </li>
+            <li>Click on your task to cross it out</li>
+            <li>Press the remove button to delete tasks you no longer need to see</li>
+        </ul>
+    </section>
+    <hr>
+    <form action="" id="toDo">
+      
+            <label id='label' for="toDoItem">Enter a task:
+                <input type="text" placeholder="" name="TodoItem">
+            </label>
+        
+    
+        <input class="add" type="submit" >
+    </form>
+  
+
+
+    <h2 class="title">Your List: </h2>
+    <section class="list">
+    <ol id="orderedList">
+        <li>Say Hello to my mother<button class="btn">Remove</button></li>
+    </ol>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
